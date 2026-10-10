@@ -64,8 +64,33 @@ category-wise demand,
 and peak ordering hours. 
 These insights can support inventory planning, product decisions, and sales strategy.
 
-📁 Project Structure
-- EDA-Pizza-Sales-SQL.sql — SQL analysis notebook containing the business questions and queries.
+📁 Repository Structure
+
+# EDA-Pizza-Sales-SQL
+│
+├── README.md
+├── data/
+│   ├── orders.xlsx
+│   ├── order_details.xlsx
+│   ├── pizzas.xlsx
+│   └── pizza_types.xlsx
+├── SQL-Queries.sql
+└── screenshots/
+    ├── top_3_pizzas_by_category.png
+    ├── revenue_contribution.png
+    ├── top_3_pizzas_by_revenue.png
+    └── daily_orders_average.png
+
+🚀 How to Run This Project
+
+1. Clone or download this repository to your local machine.
+2. Set up a MySQL database for the pizza sales analysis.
+3. Import the four dataset files ('orders', 'order_details', 'pizzas', and 'pizza_types') into your MySQL database.
+4. Open `Pizza_Hut.sql` in MySQL Workbench or another MySQL-compatible SQL editor.
+5. Select the database containing the imported tables.
+6. Execute the SQL queries to explore pizza sales, analyze revenue, identify popular pizza types, and examine ordering trends.
+
+**Note:** Ensure that the table names and column names in your database match those referenced in the SQL queries.
 
 🚀 Conclusion
 This project demonstrates the use of SQL to explore relational sales data, answer business questions, and 

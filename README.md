@@ -17,12 +17,12 @@ SQL queries are used to answer key business questions and derive insights that c
 🗂️ Dataset Description
 
 The dataset contains four tables:
-
+```
 order -- Contains order IDs, order dates, and order times.
 order_details -- Contains order detail IDs, order IDs, pizza IDs, and quantities.
 pizzas -- Contains pizza IDs, pizza type IDs, sizes, and prices.
 pizza_types -- Contains pizza type IDs, names, categories, and ingredients.
-
+```
 These tables are connected using common identifiers to analyze order quantities, product categories, and sales revenue.
 
 🔍 Business Questions Answered

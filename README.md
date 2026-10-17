@@ -65,7 +65,7 @@ and peak ordering hours.
 These insights can support inventory planning, product decisions, and sales strategy.
 
 📁 Repository Structure
-
+'''text
 # EDA-Pizza-Sales-SQL
 │
 ├── README.md
@@ -75,12 +75,12 @@ These insights can support inventory planning, product decisions, and sales stra
 │   ├── pizzas.xlsx
 │   └── pizza_types.xlsx
 ├── SQL-Queries.sql
-└── screenshots/
+└── screenshots(Query.pdf)/
     ├── top_3_pizzas_by_category.png
     ├── revenue_contribution.png
     ├── top_3_pizzas_by_revenue.png
     └── daily_orders_average.png
-
+'''
 🚀 How to Run This Project
 
 1. Clone or download this repository to your local machine.

@@ -81,6 +81,7 @@ These insights can support inventory planning, product decisions, and sales stra
     ├── top_3_pizzas_by_revenue.png
     └── daily_orders_average.png
 '''
+
 🚀 How to Run This Project
 
 1. Clone or download this repository to your local machine.
